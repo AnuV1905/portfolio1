@@ -9,19 +9,19 @@
     cursor: none;    
 }
 .project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+    background-image: url('/workspaces/portfolio1/public/SecureShe.png');
     cursor: none;
 }
 .project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+    background-image: url('/workspaces/portfolio1/public/Portfolio.png');
     cursor: none;
 }
 .project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+    background-image: url('/workspaces/portfolio1/public/Aspects.png');
     cursor: none;
 }
 .project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+    background-image: url('/workspaces/portfolio1/public/DIGWells.png');
     cursor: none;
 }
 .project6{
@@ -30,22 +30,22 @@
 }
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+    background-image: url('/workspaces/portfolio1/public/Resumedistorted.png');
     cursor: none;
 }
 .misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+    background-image: url('/workspaces/portfolio1/public/learn.jpg');
     cursor: none;
 }
 .misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    background-image: url('/workspaces/portfolio1/public/CS50x2024.png');
     cursor: none;
 }
 .misc4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+four');
+    background-image: url('/workspaces/portfolio1/public/PostmanAPi.png');
     cursor: none;
 }
 .misc5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+five');
+    background-image: url('/workspaces/portfolio1/public/CS50x2023.jpg');
     cursor: none;
 }
