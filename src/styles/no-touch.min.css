@@ -226,14 +226,14 @@ button:focus {
   width: 1160px;
   box-sizing: border-box;
   display: block;
-  margin: 3rem 3rem 0 3rem;
+  margin: 3rem 3rem 3rem 3rem;
   background-color: #fff;
-  max-height: 80vh;
+  max-height: 100vh;
 }
 .git-head-div {
   box-sizing: border-box;
-  padding-top: 5%;
-  padding-bottom: 15px;
+  padding-top: 3%;
+  padding-bottom: 5px;
   width: 30%;
   border-bottom: 3px solid #000;
   color: #000;
@@ -547,12 +547,15 @@ input:checked + .slider:before {
     bottom: 48%;
     left: 35%;
   }
-  .half form input,
+  /* .half form input,
   textarea {
     margin: 5px 0;
     padding: 10px;
-  }
+  } */
   .half p {
+    text-align: center;
+    /* margin-left: 100px ;
+    padding-left: 150px; */
     display: none;
   }
   .gtp {
@@ -583,4 +586,7 @@ input:checked + .slider:before {
   /* text-align: center;
   padding-left: 150px; */
   color:#eee;
+}
+.socialmed {
+  padding-bottom: 15px;
 }

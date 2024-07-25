@@ -22,12 +22,12 @@ const Contact = () => {
                         <button style={{cursor: 'pointer'}} type="submit">Send Message</button>
                     </form>
                 </div>*/}
-                <div className="col-12 col-sm-6 half">
+                <div className="text-center half">
                     <p className="lead">
                         {contact.pitch}        
-                    </p>
+                    
                 <div className="d-flex justify-content-center align-items-center flex-column">
-                <div className="inline-block">
+                <div className="inline-block  socialmed" >
                     {social.email && <a title="Send Mail" rel="noopener noreferrer" target="_blank" href={social.email}><i className="fa fa-envelope"></i></a>}
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}                   
                     {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank"  href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
@@ -37,6 +37,7 @@ const Contact = () => {
                 </div>
                     {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
                 </div>
+                </p>
                 </div>
             </div>
             </div>
