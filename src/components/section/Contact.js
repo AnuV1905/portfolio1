@@ -24,8 +24,8 @@ const Contact = () => {
                 </div>*/}
                 <div className="text-center half">
                     <p className="lead">
-                        {contact.pitch}        
-                    
+                        {contact.pitch} <br></br>
+                        {contact.footer}
                 <div className="d-flex justify-content-center align-items-center flex-column">
                 <div className="inline-block  socialmed" >
                     {social.email && <a title="Send Mail" rel="noopener noreferrer" target="_blank" href={social.email}><i className="fa fa-envelope"></i></a>}

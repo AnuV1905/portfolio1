@@ -184,7 +184,9 @@ const miscellaneous = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+   "Looking to collaborate on a project, hire a dedicated developer, or just connect? Reach out to me!",
+  footer:
+   "I'm always open to new connections and exciting opportunities. Let's make something amazing together!",
   copyright: "Anushka Verma",
   contactUrl: "",
 };
