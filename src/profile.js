@@ -41,15 +41,20 @@ const skillsBar = [
     // svg: '',
     faClass: "fab fa-js",
   },
-  {/*{
-    name: "SASS",
+  {
+    name: "React",
     // svg: '',
-    faClass: "fab fa-sass",
-  }, */},
+    faClass: "fab fa-react",
+  }, 
   {
     name: "Node",
     // svg: '',
     faClass: "fab fa-node",
+  },
+  {
+    name: "Firebase",
+    // svg: '',
+    faClass: "fab fa-database",
   },
   {
     name: "Python",
