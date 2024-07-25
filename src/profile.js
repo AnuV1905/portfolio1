@@ -28,8 +28,8 @@ const skillsBar = [
   {
     name: "C++",
     // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
-    svg: "public/icons8-c++.svg",
-    //faClass: "fab fa-html5",
+    //svg: "public/c 1.svg",
+    faClass: "fab fa-cuttlefish",
   },{
     name: "HTML5",
     // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
@@ -59,7 +59,7 @@ const skillsBar = [
   {
     name: "Firebase",
     // svg: '',
-    faClass: "fab fa-database",
+    faClass: "fas fa-database",
   },
   {
     name: "Python",
@@ -71,11 +71,11 @@ const skillsBar = [
     // svg: '',
     faClass: "fab fa-java",
   },
-  {/*{
-    name: "PHP",
+  {
+    name: "Azure",
     // svg: '',
-    faClass: "fab fa-php",
-  },*/},
+    faClass: "fab fa-accusoft",
+  },
   {/*{
     name: "Database",
     // svg: '',
@@ -95,32 +95,39 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project2
-    id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project3
-    id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "SecureShe Project",
+    skills: ["HTML, CSS, JS, Firebase"],
+    url: "https://github.com/AnuV1905/Mavericks---SecureShe",
   },
   {
     // Add image in './styles/images.css' in #project4
-    id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    id: "project2",
+    name: "SecureShe UI",
+    skills: ["Figma, Adobe Illustrator"],
+    url: "https://www.figma.com/design/IvEbkYpMMJMDfGFkMJW8rq/Mavericks-ui?node-id=0-1&t=DXpsPBtAOPqwF0T3-1",
   },
   {
+    // Add image in './styles/images.css' in #project5
+    id: "project5",
+    name: "Java Portfolio",
+    skills: ["HTML, JS, Node"],
+    url: "https://github.com/AnuV1905/Javaportfolio",
+  },
+  {
+    // Add image in './styles/images.css' in #project2
+    id: "project3",
+    name: "Aspects UI & UX",
+    skills: ["Figma, Adobe Illustrator"],
+    url: "https://www.figma.com/design/iSJ1losGJvBP9zXbJ3hOOf/ASPECTS?t=r0ZsZURfNwV3uO5w-1",
+  },
+  {
+    // Add image in './styles/images.css' in #project3
+    id: "project4",
+    name: "DigWells UI",
+    skills: ["Figma"],
+    url: "https://www.figma.com/design/YLtVjfLUmxBp40397QnBff/WEB?node-id=0-1&t=IOmV9gnfGoZlMpIx-1",
+  },
+  {/*{
     // Add image in './styles/images.css' in #project5
     id: "project5",
     name: "Project 5",
@@ -133,30 +140,30 @@ const projects = [
     name: "Project 6",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/kaustubhai",
-  },
+  },*/}
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = "Docs";
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    name: "Resume",
+    url: "https://drive.google.com/file/d/1gV9e1-rqXcV9MLGjBK48wvG0yoiPSSFC/view?usp=drive_link",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
+    name: "CS50x Puzzle Day 2024",
+    url: "https://drive.google.com/file/d/138b6WVxCibxko_MDLQCgCQ1Fg9dPU7Vf/view?usp=drive_link",
   },
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    name: "Postman API Day",
+    url: "https://certificate.givemycertificate.com/c/1a4b30d7-488e-455f-80aa-cda8677a8e04",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
