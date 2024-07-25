@@ -17,7 +17,7 @@ const background = {
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
-const section2title = "About";
+const section2title = "About Me";
 const about = {
   paragraph:
     "I am an undergraduate student entering my third year at the National Institute of Technology Patna, with a passion for software development, website building, and UI/UX design. I am focused on enhancing my problem-solving skills and algorithms in C++ and have actively contributed to a significant web development project, while also creating sample UI projects that emphasize user-centric design principles.",
@@ -108,21 +108,21 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project5
-    id: "project5",
+    id: "project3",
     name: "Java Portfolio",
     skills: ["HTML, JS, Node"],
     url: "https://github.com/AnuV1905/Javaportfolio",
   },
   {
     // Add image in './styles/images.css' in #project2
-    id: "project3",
+    id: "project4",
     name: "Aspects UI & UX",
     skills: ["Figma, Adobe Illustrator"],
     url: "https://www.figma.com/design/iSJ1losGJvBP9zXbJ3hOOf/ASPECTS?t=r0ZsZURfNwV3uO5w-1",
   },
   {
     // Add image in './styles/images.css' in #project3
-    id: "project4",
+    id: "project5",
     name: "DigWells UI",
     skills: ["Figma"],
     url: "https://www.figma.com/design/YLtVjfLUmxBp40397QnBff/WEB?node-id=0-1&t=IOmV9gnfGoZlMpIx-1",
