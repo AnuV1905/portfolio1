@@ -154,16 +154,28 @@ const miscellaneous = [
     url: "https://drive.google.com/file/d/1gV9e1-rqXcV9MLGjBK48wvG0yoiPSSFC/view?usp=drive_link",
   },
   {
-    // Add image in './styles/images.css' in #misc2
+    // Add image in './styles/images.css' in #misc3
     id: "misc2",
+    name: "Web development Workshop - Microsoft Learn",
+    url: "https://drive.google.com/file/d/12yvZdruGdyDUlimvzVNCY5IlwwFSaHBv/view?usp=drive_link",
+  },
+  {
+    // Add image in './styles/images.css' in #misc2
+    id: "misc3",
     name: "CS50x Puzzle Day 2024",
     url: "https://drive.google.com/file/d/138b6WVxCibxko_MDLQCgCQ1Fg9dPU7Vf/view?usp=drive_link",
   },
   {
     // Add image in './styles/images.css' in #misc3
-    id: "misc3",
+    id: "misc4",
     name: "Postman API Day",
     url: "https://certificate.givemycertificate.com/c/1a4b30d7-488e-455f-80aa-cda8677a8e04",
+  },
+  {
+    // Add image in './styles/images.css' in #misc2
+    id: "misc5",
+    name: "CS50x Puzzle Day 2023",
+    url: "https://drive.google.com/file/d/134D2JdQt0E0hhNcu7hFcfsmtmf1SF1eF/view?usp=drive_link",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
