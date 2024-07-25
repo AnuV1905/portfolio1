@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Anushka Verma",
 };
 const background = {
   // Options: Snow or Particle
@@ -17,10 +17,10 @@ const background = {
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
-const section2title = "About Me";
+const section2title = "About";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "I am an undergraduate student entering my third year at the National Institute of Technology Patna, with a passion for software development, website building, and UI/UX design. I am focused on enhancing my problem-solving skills and algorithms in C++ and have actively contributed to a significant web development project, while also creating sample UI projects that emphasize user-centric design principles.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -41,11 +41,11 @@ const skillsBar = [
     // svg: '',
     faClass: "fab fa-js",
   },
-  {
+  {/*{
     name: "SASS",
     // svg: '',
     faClass: "fab fa-sass",
-  },
+  }, */},
   {
     name: "Node",
     // svg: '',
@@ -61,21 +61,21 @@ const skillsBar = [
     // svg: '',
     faClass: "fab fa-java",
   },
-  {
+  {/*{
     name: "PHP",
     // svg: '',
     faClass: "fab fa-php",
-  },
-  {
+  },*/},
+  {/*{
     name: "Database",
     // svg: '',
     faClass: "fas fa-database",
-  },
-  {
+  }*/},
+  {/*{
     name: "AWS",
     // svg: '',
     faClass: "fab fa-aws",
-  },
+  }*/},
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
