@@ -110,7 +110,7 @@ button:focus {
   background-color: #000;
 }
 .about-text {
-  width: 80%;
+  width: 100%;
   padding: 2%;
 }
 .red-line {
@@ -306,6 +306,19 @@ textarea:focus {
   transition: 0.5;
 }
 .git-cont .fab:hover {
+  color: var(--hover-color);
+}
+.fa-envelope {
+  vertical-align: bottom;
+  padding: 10px;
+  font-size: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: 0.5;
+}
+.fa-envelope:hover {
   color: var(--hover-color);
 }
 .git-cont .fas {
@@ -565,4 +578,9 @@ input:checked + .slider:before {
     margin-left: auto;
     margin-right: auto;
   }
+}
+#previous {
+  /* text-align: center;
+  padding-left: 150px; */
+  color:#eee;
 }

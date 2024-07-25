@@ -192,6 +192,7 @@ const contact = {
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
   github: "https://github.com/AnuV1905",
+  email: "mailto:vermaanushka1905@gmail.com",
   //facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
   linkedin: "https://linkedin.com/anushka-verma-av1905",
