@@ -20,11 +20,11 @@ const Works = () => {
 
             <div className="third">
                 <>
-                    <div className="pp-head-line mx-auto text-center">
+                    <div className="pp-head-line mx-auto text-center" alt="Anushka Verma">
                         <h1 id="Projects" className="red-line pp-head">{section4Title}</h1>
                     </div>
                 </>
-                <div className="row">
+                <div className="row" alt="Anushka Verma">
                     {miscellaneous && miscellaneous.map((x) => 
                     <Project key={x.id} id={x.id} url={x.url} name={x.name} />
                     )}

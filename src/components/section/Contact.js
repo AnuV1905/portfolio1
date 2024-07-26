@@ -27,7 +27,7 @@ const Contact = () => {
                         {contact.pitch} <br></br>
                         {contact.footer}
                 <div className="d-flex justify-content-center align-items-center flex-column">
-                <div className="inline-block  socialmed" >
+                <div className="inline-block  socialmed" alt="Anushka Verma" >
                     {social.email && <a title="Send Mail" rel="noopener noreferrer" target="_blank" href={social.email}><i className="fa fa-envelope"></i></a>}
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}                   
                     {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank"  href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
@@ -42,7 +42,7 @@ const Contact = () => {
             </div>
             </div>
         </div>
-            <p id="not-dark" className="Copy"><a href="https://portfolio-seven-wine-83.vercel.app/" id="previous">Previous Site</a>.  2024 © Copyright <strong>{contact.copyright}</strong>.  All Rights Reserved</p>
+            <p id="not-dark" className="Copy"><a href="https://portfolio-seven-wine-83.vercel.app/" id="previous" alt="Anushka Verma">Previous Site</a>.  2024 © Copyright <strong>{contact.copyright}</strong>.  All Rights Reserved</p>
         </div>
     )
     

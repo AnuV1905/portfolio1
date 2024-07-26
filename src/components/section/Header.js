@@ -29,7 +29,7 @@ const Header = () => {
 
     return (
         <div>
-            <div className="Header">
+            <div className="Header" alt="Anushka Verma">
                 <h1>{ `I'm ${header.name}` }</h1>
             <p className="line-1 anim-typewriter">and this is my portfolio... </p>
             <label className="switch">
