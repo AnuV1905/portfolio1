@@ -1,7 +1,10 @@
 {
-  "name": "portfolio",
+  "name": "anushka-verma-portfolio",
   "version": "0.1.1",
   "private": false,
+  "description": "portfolio website of Anushka Verma",
+  "source": "src/profile.js",
+  "homepage": "https://AnuV1905.github.io/portfolio1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
@@ -19,6 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "build-gh": "parcel build --public-url 'https://AnuV1905.github.io/portfolio1'",
+    "predeploy": "npm run build-gh",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -38,4 +44,5 @@
       "last 1 safari version"
     ]
   }
+
 }
