@@ -197,7 +197,7 @@ const social = {
   email: "mailto:vermaanushka1905@gmail.com",
   //facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
-  linkedin: "https://linkedin.com/anushka-verma-av1905",
+  linkedin: "https://linkedin.com/in/anushka-verma-av1905",
   instagram: "https://instagram.com/anu.__v._",
   //resume: "https://novoresume.com/",
 };
